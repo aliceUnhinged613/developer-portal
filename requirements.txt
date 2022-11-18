@@ -1,4 +1,4 @@
-Django==2.2.14
+Django==3.2.15
 celery==4.4.6  # Be careful when updating this - ensure works with kombu
 redis==3.5.3
 kombu==4.6.11  # Be careful when updating this - ensure works with celery
@@ -17,7 +17,7 @@ psycopg2==2.8.5
 Pygments==2.6.1
 raven==6.10.0
 readtime==1.1.1
-wagtail==2.9.3
+wagtail==2.15.2
 whitenoise==5.1.0
 urlwait==1.0
 newrelic==5.16.0.145
