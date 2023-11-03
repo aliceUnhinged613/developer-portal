@@ -1,4 +1,4 @@
-Django==2.2.14
+Django==3.2.23
 celery==4.4.6  # Be careful when updating this - ensure works with kombu
 redis==3.5.3
 kombu==4.6.11  # Be careful when updating this - ensure works with celery
@@ -28,3 +28,4 @@ django-ratelimit==3.0.1
 
 # Specific versions of dependencies to satisfy clashing requirements:
 beautifulsoup4==4.8.2  # from Wagtail 2.9
+pillow>=10.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
