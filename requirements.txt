@@ -28,3 +28,4 @@ django-ratelimit==3.0.1
 
 # Specific versions of dependencies to satisfy clashing requirements:
 beautifulsoup4==4.8.2  # from Wagtail 2.9
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
