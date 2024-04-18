@@ -5,7 +5,7 @@ kombu==4.6.11  # Be careful when updating this - ensure works with celery
 django-celery-results==1.2.1
 django-countries==6.1.2
 django-redis==4.12.1
-gunicorn==20.0.4
+gunicorn==22.0.0
 gevent==20.6.2
 greenlet==0.4.16
 gevent-socketio==0.3.6
